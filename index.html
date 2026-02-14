@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Will you be my Valentine?❤️</title>
+    <title>Will you be my Valentine?💛</title>
     <style>
         /* Stili i përgjithshëm i faqes */
         body {
@@ -111,12 +111,12 @@
     <div class="container">
         <img id="mainGif" src="https://media.tenor.com/K2Q3r7cae6sAAAAi/bear.gif" alt="Cute Bear Asking">
         
-        <h1 id="question">Will you be my Valentine? 🌹</h1>
+        <h1 id="question">Nisiii Will you be my Valentine? 💛</h1>
         
         <div id="feedback" class="feedback-text"></div>
 
         <div class="buttons">
-            <button id="yesBtn">PO! 😍</button>
+            <button id="yesBtn">PO! 💛</button>
             <button id="noBtn">Jo 😢</button>
         </div>
     </div>
@@ -133,10 +133,8 @@
         // Tekste qesharake kur ajo provon "JO"
         const teksteRefuzimi = [
             "Je e sigurt?", 
-            "Mendoje prapë!", 
-            "Mos ma bëj këtë!", 
-            "Vërtet?", 
-            "Po më thyen zemrën...", 
+            "Mendoje prape!", 
+            "Vertet?", 
             "S'ke nga shkon!", 
             "Thjesht thuaj PO!"
         ];
@@ -202,7 +200,7 @@
         function createHearts() {
             setInterval(() => {
                 const heart = document.createElement('div');
-                heart.innerText = '❤️';
+                heart.innerText = '💛';
                 heart.style.position = 'fixed';
                 heart.style.left = Math.random() * 100 + 'vw';
                 heart.style.top = '-10px';
